@@ -17,6 +17,7 @@ public class ConfigAcesso {
     {
         System.setProperty("webdriver.chrome.driver","C:\\Users\\Resource\\Driver\\chromedriver.exe");
         Driver = new ChromeDriver();
+        Driver.manage().window().maximize();
         Driver.get(Url);
     }
 
