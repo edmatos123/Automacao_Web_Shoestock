@@ -3,6 +3,8 @@ package Core;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.concurrent.TimeUnit;
+
 public class ConfigAcesso {
     protected WebDriver Driver;
     public String Url = "https://www.shoestock.com.br/";
@@ -19,6 +21,7 @@ public class ConfigAcesso {
         Driver = new ChromeDriver();
         Driver.manage().window().maximize();
         Driver.get(Url);
+        Driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
     }
 
     public WebDriver getDriver() {
