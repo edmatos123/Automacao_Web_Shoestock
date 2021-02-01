@@ -9,4 +9,4 @@
 
 <h5>1- No diretório Test_Obj consta o script de teste escrito utilizando Java, JavaScript, Selenium e Junit.<h5>
 
-<h5>2- O arquivo Execução_Script.mp4 consta a evidência do script sendo executado.<h5>
+<h5>2- O arquivo Execução_Script.mp4 consta a evidência do script executando.<h5>
